@@ -28,9 +28,9 @@
      /* overflow: hidden;
  } */
 
- body {
+ /* body {
      background-color: rgba(0, 0, 0, 0.699);
- }
+ } */
 
  nav {
      background-color: rgb(202, 126, 135);
@@ -45,16 +45,25 @@
      margin: auto;
  }
 
- #nav_items {
-     display: flex;
-     gap: 20px;
+ 
 
- }
+
 
  .list {
      list-style-type: none;
      color: white;
  }
+
+ #nav_items a:hover{
+
+    color: black;
+ }
+
+ #nav_items {
+    display: flex;
+    gap: 20px;
+
+}
 
  nav a {
      text-decoration: none;
@@ -160,10 +169,14 @@
     text-decoration-line: underline; */
  }
 
+ /* .glass{
+    from https://css.glass
+ } */
+
  .text {
      /* font-family: ; */
      font-size: larger;
-     color: yellow;
+     color: rgb(192, 27, 47);
      padding: 1rem;
      /* width: 40%; */
      text-align: center;
@@ -176,7 +189,7 @@
  .text_list {
      font-family: serif;
      font-size: larger;
-     color: rgba(255, 255, 0, 0.534);
+     color: rgb(192, 27, 47);
      padding-left: 1rem;
      /* width: 40%; */
      text-align: center;
@@ -201,7 +214,7 @@
  }
 
  .Vertical_line {
-    border-left: 2px solid white;
+    border-left: 2px solid rgb(202, 126, 135);
     /* padding: 10px;
     padding-right: 10px; */
     margin: 5%;
@@ -212,7 +225,7 @@
     text-align: right;
     font-family: serif;
      font-size: 2rem;
-     color: yellow;
+     color: rgb(202, 126, 135);
 }
 
  .home_item:hover {
@@ -279,8 +292,6 @@
 
 
      background-image: url(../images/weddings2.png);
-
-
      height: 90vh;
      width: 100vw;
      background-position: center;
@@ -289,4 +300,5 @@
      padding-right: 200px; */
      background-repeat: no-repeat;
      margin-top: 8%;
+     /* border-radius: 25%; */
  }
